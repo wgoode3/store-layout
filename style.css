@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d8d8d8;
+}
+
+.bg-img {
+    width: 100%;
+}
+
+.nav {
+    background-color: #1a1a1a;
+    color: #fff;
+    height: 50px;
+    border-top: 5px solid transparent;
+    border-image: url("imgs/bg.jpg") 30 round;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+ul.nav-left, ul.nav-right {
+    display: inline-block;
+    line-height: 50px;
+}
+
+ul.nav-left li, ul.nav-right li {
+    display: inline-block;
+}
+
+ul.nav-left {
+    height: 30px;
+}
+
+ul.nav-left li {
+    margin-top: 10px;
+    margin-right: 30px;
+    line-height: 30px;
+    vertical-align: top;
+}
+
+ul.nav-right {
+    float: right;
+}
+
+ul.nav-right li {
+    margin-left: 30px;
+}
+
+.brand-img {
+    height: 30px;
+}
+
+.purple {
+    color: #de8ae5;
+}
+
+.highlights {
+    font-weight: normal;
+    padding: 20px 0 10px 0;
+    border-bottom: 1px solid #bbb;
+}
+
+.highlight {
+    box-sizing: border-box;
+    height: 450px;
+    background: url("imgs/cp2077.jpg");
+    margin: 20px 0;
+    padding: 20px;
+    position: relative;
+    box-shadow: 0px 2px 2px #999;
+}
+
+.align-bottom-left, .align-bottom-right {
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+}
+
+.align-bottom-right {
+    right: 20px;
+}
+
+.align-bottom-left {
+    left: 20px;
+}
+
+.price {
+    display: inline-block;
+    color: #fff;
+    margin-right: 50px;
+    font-size: 1.7rem;
+}
+
+.coming-soon {
+    background-color: #254a76;
+    color: #fff;
+    height: 30px;
+    width: 75px;
+    border: 0;
+}
+
+.buy-btn {
+    background: linear-gradient(#c0eb58, #7fb041);
+    color: #fff;
+    height: 50px;
+    width: 220px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.os {
+    margin-left: 10px;
+    color: #666;
+}
+
+.game-title {
+    margin: 5px 0;
+    font-size: 1.7rem;
+}
+
+.left-arrow, .right-arrow {
+    color: #d8d8d8;
+    background-color: #616161;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 5px solid #d8d8d8;
+}
+
+.left-arrow *, .right-arrow * {
+    font-size: 1.5rem;
+    margin: 3px 10px;
+}
+
+.left-arrow {
+    position: absolute;
+    left: -15px;
+    top: 190px;
+}
+
+.right-arrow {
+    position: absolute;
+    right: -15px;
+    top: 190px;
+}
+
+.highlight-select {
+    display: block;
+    text-align: center;
+    height: 10px;
+}
+
+.highlight-selector {
+    display: inline-block;
+    height: 2px;
+    width: 50px;
+    background-color: #999;
+    margin: 1px 5px;
+    vertical-align: top;
+}
+
+.highlight-selector.selected {
+    height: 4px;
+    background-color: #77387a;
+    margin: 0 5px;
+} 
+
+.game-s {
+    width: 281px;
+    height: 220px;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.game-s:last-child {
+    margin-right: 0;
+}
+
+.game-s img {
+    width: 100%;
+}
+
+h4.game-title-s {
+    height: 1rem;
+    font-weight: normal;
+    margin: 10px 15px;
+}
+
+.systems {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.systems svg {
+    color: #aaa;
+    margin: 0 5px 0 0;
+}
+
+.discount-s {
+    font-size: 1.2rem;
+    padding: 7px;
+    background-color: #77387a;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.price-box {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.price-inner {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.original-price {
+    font-size: 0.8rem;
+    text-align: right;
+    text-decoration: line-through;
+    color: #999;
+}
+
+.current-price {
+    text-align: right;
+}
+
+.mission {
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+
+.left-portion {
+    display: inline-block;
+    vertical-align: top;
+    width: 850px;
+    padding-right: 50px;
+    border-right: 1px solid #666;
+    color: #666;
+}
+
+a {
+    color: #77387a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right-portion {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.right-portion a {
+    line-height: 36px;
+    margin-left: 50px;
+}
+
+.logo-s {
+    height: 32px;
+    display: inline-block;
+    vertical-align: top;
+}
